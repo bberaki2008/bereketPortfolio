@@ -37,6 +37,7 @@ li:hover {
     background: var(--light-gray-color);
 }
 
+/* responsive layout that adapts to my viewport */
 .links,.applicantInfo {
     display: flex;
     flex-wrap: wrap;
@@ -151,7 +152,7 @@ a {
     padding-bottom: 1%;
 }
 
-/* the background and the font color changes based on the screen size of the display port */
+/* presents responsive layout that adapts to various viewportport or screen size */
 @media screen and (max-width: 768px) {
     main {
         background: var(--white-color);

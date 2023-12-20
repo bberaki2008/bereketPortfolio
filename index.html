@@ -23,7 +23,10 @@
         <section class="applicantInfo">
             <article>
                 <!-- image source -  Nadine Burzler -->
-                <a href="https://bberaki2008.github.io/bereketPortfolio/"><img src="./assets/img/profilePicture.jpg" class="profileImage" alt="profile image"></a>
+                <a href="https://bberaki2008.github.io/bereketPortfolio/">
+                    <!-- WHEN the image of the application clicked on, then redirected to the deployed application -->
+                    <img src="./assets/img/profilePicture.jpg" class="profileImage" id="imagProfile"alt="profile image">
+                </a>
             </article>
             <address>
                 <p class="name">Bereket</p>
@@ -130,7 +133,8 @@
 
     <!-- footer starts here -->
     <footer id="about"  class="footer">
-        <section class="social_media_icons"><h4 ><a href="#">&copy; 2023 Placeholder</a></h4>
+            <!-- when the copy write link clicked THEN the UI scrolls to a section with titled images of the developer's applications -->
+        <section class="social_media_icons"><h4 ><a href="#imagProfile">&copy; 2023 Placeholder</a></h4>
              <span><a href="https://www.youtube.com/"><img src="./assets/img/youtube.png" alt="youtube icon"></a></span><span><a href="https://www.instagram.com/"><img src="./assets/img/insta.png" alt="instagram icon"></a></span><span><a href="https://www.tiktok.com/en/"><img src="./assets/img/tiktok.png" alt="tiktok icon"></a></span>
         </section>
     </footer> 
