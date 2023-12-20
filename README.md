@@ -1,4 +1,4 @@
-# My Profile
+# My Portfolio - Web Developer
 
 ## Description
 
@@ -13,7 +13,7 @@ N/A
 
 ## Usage
 
-To view this site of my profile, you can open it with the most popular browser such as Google Chrome, Firefox (Mozilla), Edge and so on...
+To view my portfolio, you can open it with the most popular browser such as Google Chrome, Firefox (Mozilla), Edge and so on...
 
 ## Credits
 
@@ -21,7 +21,7 @@ N/A
 
 ## Screenshot
 
-![Alt My Profile site screenshot](./assets/images/profilePic.png)
+![Alt My Portfolio site screenshot](./assets/images/portfolioPic.png)
 
 ## License
 

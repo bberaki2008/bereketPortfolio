@@ -31,6 +31,12 @@ body{
     width: 80%;
     padding-top: 20px;
 }
+/* 
+navbar link changes to gray when it is active */
+li:hover {
+    background: var(--light-gray-color);
+}
+
 .links,.applicantInfo {
     display: flex;
     flex-wrap: wrap;
@@ -54,14 +60,13 @@ body{
     border-radius: 20px;
     opacity: 0.99;
     margin-right: 10px;
-    z-index: -1;
 }
 
-.profileImage:hover {
-    transform: scale(2);
-    transform: rotate(15deg);
-    cursor: pointer;
+/* The css below magnifies the the profile pic 3X and rotates it 15 degree to the right. */
+.profileImage:hover{
+    transform: scale(3) rotate(15deg);
 }
+
 .applicantInfo {
     margin: 20px auto;
     text-align: center;
@@ -125,15 +130,12 @@ a {
     text-decoration: none;
 }
 
-li:hover {
-    background: var(--light-gray-color);
-}
-
 .name::first-letter {
     color: rgba(255, 255, 255, .8);
     font-size: 50px;
 }
 
+/* social media links */
 .social_media_icons {
     display: flex;
     flex-direction: row;
@@ -144,13 +146,12 @@ li:hover {
     width: 50%;
 }
 
-/* data-descr */
-/* @media query */
 
 .education {
     padding-bottom: 1%;
 }
 
+/* the background and the font color changes based on the screen size of the display port */
 @media screen and (max-width: 768px) {
     main {
         background: var(--white-color);
