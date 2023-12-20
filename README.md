@@ -1,4 +1,4 @@
-# My Portfolio - Web Developer
+# Bereket's Portfolio
 
 ## Description
 
@@ -18,10 +18,6 @@ To view my portfolio, you can open it with the most popular browser such as Goog
 ## Credits
 
 N/A
-
-## Screenshot
-
-![Alt My Portfolio site screenshot](./assets/images/portfolioPic.png)
 
 ## License
 
