@@ -19,10 +19,6 @@ To view my portfolio, you can open it with the most popular browser such as Goog
 
 N/A
 
-## Screenshot
-
-![Alt My Portfolio site screenshot](./assets/images/portfolioPic.png)
-
 ## License
 
 Please refer to the LICENSE in the repo.
