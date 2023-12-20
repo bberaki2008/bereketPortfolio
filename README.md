@@ -13,26 +13,6 @@ N/A
 
 ## Usage
 
-To use this site of Marketing Agency, you can open it with the most popular browser such as Google Chrome, Firefox (Mozilla), Edge and so on...
-
-## Credits
-
-N/A
-
-## Screenshot
-
-![Alt Screenshoot of Marketing Agency](./assets/images/Screenshot_market_agency.png)
-
-## License
-
-Please refer to the LICENSE in the repo.
-
-## Installation
-
-N/A
-
-## Usage
-
 To view this site of my profile, you can open it with the most popular browser such as Google Chrome, Firefox (Mozilla), Edge and so on...
 
 ## Credits
