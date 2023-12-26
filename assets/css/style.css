@@ -110,7 +110,7 @@ main {
     align-items: center;
     text-align: center;
     min-height: 17vh;
-    background-image: url("./hero.png");
+    background-image: url("../img/hero.png");
     background-repeat: repeat;
 }
 
@@ -187,4 +187,88 @@ main {
 
 .flex-item:hover {
     background: rgba(0, 0, 0, 0.3);
+}
+
+/* image from unsplash - thanks to Sebastien-Gabriel */
+#item1 {
+    background-image: url("../img/beach.jpg");
+    opacity: 0.90;
+    background-position: center center;
+}
+
+/* image from unsplash - thanks to Luke Chesser */
+#item2 {
+    background-image: url("../img/ledlight.jpg");
+    opacity: 0.90;
+    background-position: center center;
+}
+
+/* image from unsplash - thanks to Bernard Hermant */
+#item3 {
+    background-image: url("../img/analysis.jpg");
+    opacity: 0.90;
+    background-position: center center;
+}
+
+/* image from unsplash - thanks to Hans Peter Gauster */
+#item4 {
+    background-image: url("../img/puzzle.jpg");
+    opacity: 0.90;
+    background-position: center center;
+}
+
+/* image from unsplash - Oscar Sutton */
+#item5 {
+    background-image: url("../img/oscar-sutton.jpg");
+    opacity: 0.90;
+    background-position: center center;
+}
+
+a>div {
+    background: var(--light-blue);
+    padding: 4px;
+}
+
+a div>span {
+    font-size: 1.1rem;
+}
+
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.contact address a {
+    color: white;
+    padding: 5px;
+    font-size: 1.3rem;
+    display: inline-block;
+    color: var(--dark-blue);
+    font-weight: 800;
+    text-decoration: none;
+    font-style: normal;
+    padding-bottom: 1px;
+    border-bottom: 4px solid var(--dark-blue);
+
+}
+
+/* On screens that are px 768or less, set the font-size of h2 to 90% */
+@media screen and (max-width: 768px) {
+
+    .page-section>h2,
+    a>div {
+        font-size: 95%;
+    }
+}
+
+/* On screens that are px 300or less, set the font-size of h2 to 90% */
+@media screen and (max-width: 380px) {
+
+    .page-section>h2,
+    a>div {
+        font-size: 90%;
+    }
 }
