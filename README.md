@@ -19,6 +19,14 @@ To view my portfolio, you can open it with the most popular browser such as Goog
 
 N/A
 
+## Screenshot
+
+![Alt Screenshoot of Bereket's Portfolio](./assets/img/portfolio.png)
+
+## Link to the Site
+
+https://bberaki2008.github.io/bereketPortfolio/
+
 ## License
 
 Please refer to the LICENSE in the repo.
