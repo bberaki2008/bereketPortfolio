@@ -21,7 +21,7 @@ body {
     background-color: var(--body-bg-color);
 }
 
-.title {
+.title a {
     background: var(--light-blue);
     font-size: 30px;
     color: var(--dark-blue);
@@ -58,7 +58,7 @@ header span {
     font-size: 400%;
     padding: 2px 15px 2px 30px;
 }
-header a {
+header a, .title a {
     text-decoration: none;
 }
 /* avatar image property */
